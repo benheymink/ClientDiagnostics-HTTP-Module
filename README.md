@@ -8,10 +8,10 @@ Installation:
 * Modify web.config and add the following by adding our module to the ‘httpModules’ section
 * (creating it, if it does not exist):
 
-<configuration>
-<system.web>
-<httpModules>
-<add name="ClientDiagnosticsHandler"type="ClientDiagnosticsHandler.ClientDiagnosticsModule"/>
-</httpModules>
-</system.web>
-</configuration>
+- <configuration>
+- <system.web>
+- <httpModules>
+- <add name="ClientDiagnosticsHandler"type="ClientDiagnosticsHandler.ClientDiagnosticsModule"/>
+- </httpModules>
+- </system.web>
+- </configuration>
