@@ -18,4 +18,4 @@ the following:
 </pre>
 
 It's important to note that since the module will be attempting to write to disk, any users will
-need sufficient permissions to write/crate at that location, else the module will serve up a 500 error.
+need sufficient permissions to write/create at that location, else the module will serve up a 500 error.
